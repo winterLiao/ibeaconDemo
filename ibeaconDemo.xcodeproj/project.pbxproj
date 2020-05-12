@@ -16,6 +16,7 @@
 		C8B402752457C565006B9DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B402742457C565006B9DCB /* main.m */; };
 		C8B4027F2457C566006B9DCB /* ibeaconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B4027E2457C566006B9DCB /* ibeaconDemoTests.m */; };
 		C8B4028A2457C566006B9DCB /* ibeaconDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B402892457C566006B9DCB /* ibeaconDemoUITests.m */; };
+		C8B402992457C840006B9DCB /* ibeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B402982457C840006B9DCB /* ibeaconManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C8B402852457C566006B9DCB /* ibeaconDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibeaconDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B402892457C566006B9DCB /* ibeaconDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ibeaconDemoUITests.m; sourceTree = "<group>"; };
 		C8B4028B2457C566006B9DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B402972457C840006B9DCB /* ibeaconManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ibeaconManager.h; sourceTree = "<group>"; };
+		C8B402982457C840006B9DCB /* ibeaconManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ibeaconManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C8B402662457C562006B9DCB /* SceneDelegate.m */,
 				C8B402682457C562006B9DCB /* ViewController.h */,
 				C8B402692457C562006B9DCB /* ViewController.m */,
+				C8B402972457C840006B9DCB /* ibeaconManager.h */,
+				C8B402982457C840006B9DCB /* ibeaconManager.m */,
 				C8B4026B2457C562006B9DCB /* Main.storyboard */,
 				C8B4026E2457C565006B9DCB /* Assets.xcassets */,
 				C8B402702457C565006B9DCB /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				C8B4026A2457C562006B9DCB /* ViewController.m in Sources */,
 				C8B402642457C562006B9DCB /* AppDelegate.m in Sources */,
 				C8B402752457C565006B9DCB /* main.m in Sources */,
+				C8B402992457C840006B9DCB /* ibeaconManager.m in Sources */,
 				C8B402672457C562006B9DCB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
